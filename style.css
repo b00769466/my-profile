@@ -1,0 +1,76 @@
+body {
+	color: #1A2351;
+	background-color: #AADBF7;
+	font-family: 'Asap'; 
+	text-align: center;
+}
+#banner{
+	background-color: #edf7fa;
+    padding: 60px 30px 30px;
+    margin:50px 0px;
+    border-radius: 10px;
+    border: 1px solid rgb(26 ,41, 73) ;  
+    box-shadow: 38px 38px 38px rgb(49, 112, 142);
+    
+}
+#profile_picture{ 
+	width:170px;
+
+}
+.img_circle{ align: center;
+	border-radius: 50%
+
+}
+.card-white {
+    background-color: #edf7fa;
+    padding: 6px 30px 30px;
+    margin:70px 0px;
+    border-radius: 10px;
+     border: 1px solid rgb(26 ,41, 73) ;
+     box-shadow: 38px 38px 38px rgb(49, 112, 142);
+    
+    }
+.container {
+	width: 600px;
+    margin: 0px auto;
+    background-color: #AADBF7;
+
+    
+}
+@media (max-width: 760px) {
+	.container {
+		width: 500px;
+	}
+}
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+div {
+	border: 2px light black;
+	margin: 10px; 
+}
+
+.list-inline {
+	list-style: none;
+	padding: 0px 0px 0px 0px;
+}
+.list-inline li{
+	display: inline;
+	padding: 10px;
+	color: #63D471;
+	transition: color 0.3s ease;
+}
+.list-inline i{
+	font-size: 50px;
+	color: #63D471;
+}
+.list-inline i:hover {
+color: #F75353;
+text-decoration: none;
+}
+
+ 
+
+
